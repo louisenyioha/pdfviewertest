@@ -1,0 +1,16 @@
+.pdf_download {
+    font-weight: 700;
+    color: #000;
+    width: 50%;
+    margin: auto;
+    padding: 0 0 20px 0;
+    margin-top: -40px;
+}
+
+.toolbar_items {
+    display: none;
+}
+
+.auto__embeds_new_toolbar .toolbarDownload {
+    display: none;
+}
