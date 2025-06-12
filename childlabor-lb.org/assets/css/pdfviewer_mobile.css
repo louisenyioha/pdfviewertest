@@ -41,6 +41,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-content: center;
+        right: 0;
     }
 
     #viewer #toolbarContainer #toolbar #toolbarMiddleContainer #toolbarMiddle #zoomButtons {
