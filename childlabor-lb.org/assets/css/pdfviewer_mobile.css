@@ -34,6 +34,7 @@
         float: none;
         margin: auto;
         width: 30%;
+        right: 0;
     }
 
     #viewer #toolbarContainer #toolbar #toolbarMiddleContainer #toolbarMiddle {
