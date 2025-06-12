@@ -48,3 +48,9 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 450px) {
+    #viewer #toolbarContainer #toolbar #toolbarMiddleContainer {
+        width: 50%;
+    }
+}
