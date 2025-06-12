@@ -5,3 +5,52 @@
     width: 100%;
     height: 100%;
 }
+
+@media screen and (max-width: 640px) {
+    #viewer #toolbarContainer {
+        height: 110px;
+    }
+
+    #viewer #toolbarContainer #toolbar {
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100%;
+        justify-content: center;
+    }
+
+    #viewer #toolbarContainer #toolbar #toolbarLeft {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        position: relative;
+        visibility: visible;
+    }
+
+    #viewer #toolbarContainer #toolbar #toolbarRight {
+        position: relative;
+        display: grid;
+    }
+
+    #viewer #toolbarContainer #toolbar #toolbarRight #about {
+        width: 30%;
+        margin: auto;
+    }
+
+    #viewer #toolbarContainer #toolbar #toolbarMiddleContainer {
+        visibility: visible;
+        float: none;
+        margin: auto;
+        width: 30%;
+    }
+
+    #viewer #toolbarContainer #toolbar #toolbarMiddleContainer #toolbarMiddle {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+    }
+
+    #viewer #toolbarContainer #toolbar #toolbarMiddleContainer #toolbarMiddle #zoomButtons {
+        display: flex;
+    }
+}
