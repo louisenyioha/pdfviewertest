@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 640px) {
-    div#viewer div#toolbarContainer {
+    div#toolbarContainer {
         height: 110px;
     }
 
